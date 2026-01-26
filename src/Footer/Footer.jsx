@@ -1,9 +1,9 @@
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer className="bg-slate-800 text-white text-center py-4">
-      <p className="text-sm">
-        © 2026 MyWebsite. All rights reserved.
-      </p>
+    <footer className="footer">
+      <p>&copy; 2024 MyReactApp. Dibuat dengan Vite & React.</p>
     </footer>
   );
-}
+};
+
+export default Footer;

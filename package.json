@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://username.github.io/tugas",
+  "homepage": "https://Salafy1710.github.io/Tugas1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist https://github.com/Salafy1710/Tugas1.git"
   },
   "dependencies": {
     "react": "^19.2.0",
