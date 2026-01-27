@@ -1,4 +1,4 @@
-import Layout from './components/Layout';
+import Layout from './Layout.jsx';
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
           Ini adalah contoh implementasi React dengan struktur folder yang rapi
           dan menggunakan teknik Composition.
         </p>
-        <button className="cta-button">Pelajari Lebih Lanjut</button>
       </div>
     </Layout>
   );
