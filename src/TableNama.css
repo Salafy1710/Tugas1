@@ -1,0 +1,72 @@
+.tableContainer {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.tableTitle {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.inputSection {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  flex: 1;
+  padding: 10px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.inputField:focus {
+  border-color: #4A90E2;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.addButton:hover {
+  background-color: #357ABD;
+}
+
+.customTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customTable th, .customTable td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.customTable th {
+  background-color: #f8f9fa;
+  color: #666;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.customTable tbody tr:hover {
+  background-color: #fcfcfc;
+}

@@ -6,7 +6,7 @@ function App() {
       <div className="hero-section">
         <h1>Halo</h1>
         <p>
-          Ini contoh doang
+          Ini contoh
         </p>
       </div>
     </Layout>
