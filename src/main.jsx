@@ -6,7 +6,7 @@ import Layout from './Layout.jsx';
 import AlertButton from './AlertButton/AlertButton.jsx';
 import Footer from './Footer/Footer.jsx';
 import Navbar from './Navbar/Navbar.jsx';
-
+import ListNama from './list/ListNama.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <AlertButton text="Tekan Aku" message="Halo, ini pesan dari AlertButton!" />
     <Footer />
     <Layout />
+    <ListNama />
   </StrictMode>
 )

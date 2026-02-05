@@ -1,5 +1,6 @@
 import Layout from './Layout.jsx';
 import AlertButton from './AlertButton/AlertButton.jsx';
+import ListNama from './list/ListNama.jsx';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 </p>
             </div>
             <AlertButton text="Tekan Aku" message="Halo, ini pesan dari AlertButton!" />
+            <ListNama />
         </Layout>
     );
 }
